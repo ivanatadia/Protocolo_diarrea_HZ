@@ -34,8 +34,12 @@ library(ggspatial)
 
 
 ####LEO LOS EXCEL#####
+<<<<<<< HEAD
 COPRO_POSITIVO <- read.csv2("Coprocultivos positivos.csv",encoding = "UTF-8", na.strings = c("","*SIN DATO* (*SIN DATO*)"))
 COPRO_AGRUPADO <- read.csv2("Copro agrupado.csv",encoding = "UTF-8", na.strings = c("","*SIN DATO* (*SIN DATO*)"))
 COORD_ZAPALA <- read.csv2("Coordenadas copro zapala.csv",encoding = "UTF-8", na.strings = c("","*SIN DATO* (*SIN DATO*)"))
 
+=======
+NOMINAL <- read.csv2("NEUQUEN_NOMINAL.csv",encoding = "UTF-8", na.strings = c("","*SIN DATO* (*SIN DATO*)"))
+>>>>>>> fc5dc00b86a0c644d645d03d3a8a97bf4933f4b0
 
